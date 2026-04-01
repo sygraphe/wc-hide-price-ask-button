@@ -1,0 +1,820 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WC Hide Price & Ask Button Pro 1.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-01 00:00+0000\n"
+"PO-Revision-Date: 2026-03-29 20:53+0300\n"
+"Last-Translator: Antigravity\n"
+"Language-Team: Greek\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.9\n"
+
+#. translators: %s: WooCommerce plugin name.
+#: wc-hide-price-ask-button.php:58
+#, php-format
+msgid "%s requires WooCommerce to be installed and active."
+msgstr "Το %s απαιτεί το WooCommerce να είναι εγκατεστημένο και ενεργό."
+
+#: includes/class-admin.php:44 includes/class-admin.php:45
+msgid "WC Hide Price"
+msgstr "WC Απόκρυψη Τιμής"
+
+#: includes/class-admin.php:55 includes/class-admin.php:56
+#: includes/class-admin.php:158
+msgid "Hide Product Price"
+msgstr "Απόκρυψη Τιμής Προϊόντος"
+
+#: includes/class-admin.php:64 includes/class-admin.php:65
+#: includes/class-admin.php:229
+msgid "Hide Category Prices"
+msgstr "Απόκρυψη Τιμών Κατηγορίας"
+
+#: includes/class-admin.php:73 includes/class-admin.php:74
+#: includes/class-admin.php:365
+msgid "Button Settings"
+msgstr "Ρυθμίσεις Κουμπιού"
+
+#: includes/class-admin.php:82 includes/class-admin.php:83
+msgid "About"
+msgstr "Σχετικά"
+
+#: includes/class-admin.php:135
+msgid "Searching…"
+msgstr "Αναζήτηση…"
+
+#: includes/class-admin.php:136
+msgid "No results found."
+msgstr "Δεν βρέθηκαν αποτελέσματα."
+
+#: includes/class-admin.php:137 includes/class-admin.php:197
+#: includes/class-admin.php:265 includes/class-admin.php:325
+msgid "Remove"
+msgstr "Αφαίρεση"
+
+#: includes/class-admin.php:138
+msgid "Saving…"
+msgstr "Αποθήκευση…"
+
+#: includes/class-admin.php:139 includes/class-ajax.php:218
+#: includes/class-ajax.php:237 includes/class-ajax.php:275
+#: includes/class-ajax.php:310
+msgid "Changes saved successfully."
+msgstr "Οι αλλαγές αποθηκεύτηκαν επιτυχώς."
+
+#: includes/class-admin.php:140
+msgid "An error occurred while saving."
+msgstr "Παρουσιάστηκε σφάλμα κατά την αποθήκευση."
+
+#: includes/class-admin.php:141 includes/class-admin.php:173
+#: includes/class-admin.php:244 includes/class-admin.php:301
+msgid "Search"
+msgstr "Αναζήτηση"
+
+#: includes/class-admin.php:159
+msgid "Search for products by name, ID, or SKU and add them to the hidden price list."
+msgstr "Αναζητήστε προϊόντα κατά όνομα, ID ή SKU και προσθέστε τα στη λίστα κρυφών τιμών."
+
+#: includes/class-admin.php:162
+msgid "Search Products"
+msgstr "Αναζήτηση Προϊόντων"
+
+#: includes/class-admin.php:168 includes/class-admin.php:296
+msgid "Type a product name, ID, or SKU…"
+msgstr "Πληκτρολογήστε όνομα προϊόντος, ID ή SKU…"
+
+#: includes/class-admin.php:180
+msgid "Products"
+msgstr "Προϊόντα"
+
+#: includes/class-admin.php:209
+msgid "Save Products"
+msgstr "Αποθήκευση Προϊόντων"
+
+#: includes/class-admin.php:230
+msgid "Search for product categories by name or ID and add them to the hidden price list."
+msgstr "Αναζητήστε κατηγορίες προϊόντων κατά όνομα ή ID και προσθέστε τις στη λίστα κρυφών τιμών."
+
+#: includes/class-admin.php:233
+msgid "Search Categories"
+msgstr "Αναζήτηση Κατηγοριών"
+
+#: includes/class-admin.php:239
+msgid "Type a category name or ID…"
+msgstr "Πληκτρολογήστε όνομα κατηγορίας ή ID…"
+
+#: includes/class-admin.php:251
+msgid "Categories"
+msgstr "Κατηγορίες"
+
+#: includes/class-admin.php:277
+msgid "Save Categories"
+msgstr "Αποθήκευση Κατηγοριών"
+
+#: includes/class-admin.php:383 includes/class-admin.php:444
+msgid "Default:"
+msgstr "Προεπιλογή:"
+
+#: includes/class-admin.php:389 includes/class-admin.php:450
+msgid "Custom:"
+msgstr "Προσαρμοσμένο:"
+
+#: includes/class-admin.php:392 includes/class-admin.php:453
+msgid "Maximum 30 characters."
+msgstr "Μέγιστο 30 χαρακτήρες."
+
+#: includes/class-admin.php:546
+msgid "Replace Elements On"
+msgstr "Αντικατάσταση Στοιχείων σε"
+
+#: includes/class-admin.php:551
+msgid "Product Page"
+msgstr "Σελίδα Προϊόντος"
+
+#: includes/class-admin.php:556
+msgid "Product List / Archive"
+msgstr "Λίστα Προϊόντων / Αρχείο"
+
+#: includes/class-admin.php:565
+msgid "Save Settings"
+msgstr "Αποθήκευση Ρυθμίσεων"
+
+#: includes/class-admin.php:583
+msgid "About WC Hide Price & Ask Button Pro"
+msgstr "Σχετικά με το WC Απόκρυψη Τιμής & Κουμπί Ερώτησης"
+
+#: includes/class-admin.php:898
+msgid "About This Plugin"
+msgstr "Σχετικά με αυτό το Πρόσθετο"
+
+#: includes/class-admin.php:900
+msgid "WC Hide Price & Ask Button Pro is a powerful WooCommerce extension that transforms your online store into a quote-based or inquiry-driven sales platform. Perfect for B2B stores, wholesale businesses, custom product manufacturers, or any shop that prefers personal communication before sales."
+msgstr "Το WC Απόκρυψη Τιμής & Κουμπί Ερώτησης είναι μια ισχυρή επέκταση WooCommerce που μετατρέπει το ηλεκτρονικό σας κατάστημα σε πλατφόρμα πωλήσεων βασισμένη σε προσφορές ή ερωτήσεις. Ιδανικό για καταστήματα B2B, χονδρικές επιχειρήσεις, κατασκευαστές προσαρμοσμένων προϊόντων ή οποιοδήποτε κατάστημα που προτιμά την προσωπική επικοινωνία πριν από τις πωλήσεις."
+
+#: includes/class-admin.php:903
+msgid "Instead of displaying prices and \"Add to Cart\" buttons, this plugin replaces them with customizable inquiry buttons that open a professional contact form. You maintain complete control over which products require inquiries, who can see prices, and how the inquiry process works."
+msgstr "Αντί να εμφανίζει τιμές και κουμπιά \"Προσθήκη στο Καλάθι\", αυτό το πρόσθετο τα αντικαθιστά με προσαρμόσιμα κουμπιά ερώτησης που ανοίγουν μια επαγγελματική φόρμα επικοινωνίας. Διατηρείτε τον πλήρη έλεγχο σχετικά με το ποια προϊόντα απαιτούν ερωτήσεις, ποιος μπορεί να δει τις τιμές και πώς λειτουργεί η διαδικασία ερώτησης."
+
+#: includes/class-admin.php:908
+msgid "Key Features"
+msgstr "Βασικά Χαρακτηριστικά"
+
+#: includes/class-admin.php:910
+msgid "Flexible Price Hiding Options"
+msgstr "Ευέλικτες Επιλογές Απόκρυψης Τιμών"
+
+#: includes/class-admin.php:912
+msgid "Hide prices from all products globally with a single click"
+msgstr "Απόκρυψη τιμών από όλα τα προϊόντα παγκοσμίως με ένα κλικ"
+
+#: includes/class-admin.php:913
+msgid "Hide prices from all product categories at once"
+msgstr "Απόκρυψη τιμών από όλες τις κατηγορίες προϊόντων ταυτόχρονα"
+
+#: includes/class-admin.php:914
+msgid "Select specific individual products to hide prices from"
+msgstr "Επιλέξτε συγκεκριμένα μεμονωμένα προϊόντα για απόκρυψη τιμών"
+
+#: includes/class-admin.php:915
+msgid "Choose entire product categories to hide prices from"
+msgstr "Επιλέξτε ολόκληρες κατηγορίες προϊόντων για απόκρυψη τιμών"
+
+#: includes/class-admin.php:916
+msgid "Exclude specific products from category-based hiding rules"
+msgstr "Εξαιρέστε συγκεκριμένα προϊόντα από κανόνες απόκρυψης βασισμένους σε κατηγορίες"
+
+#: includes/class-admin.php:917
+msgid "Search products by name, ID, or SKU for easy selection"
+msgstr "Αναζητήστε προϊόντα κατά όνομα, ID ή SKU για εύκολη επιλογή"
+
+#: includes/class-admin.php:920
+msgid "Advanced Visibility Controls"
+msgstr "Προηγμένοι Έλεγχοι Ορατότητας"
+
+#: includes/class-admin.php:922
+msgid "Hide prices from everyone and show contact form"
+msgstr "Απόκρυψη τιμών από όλους και εμφάνιση φόρμας επικοινωνίας"
+
+#: includes/class-admin.php:923
+msgid "Hide prices from guest users only, prompting them to log in"
+msgstr "Απόκρυψη τιμών μόνο από επισκέπτες χρήστες, προτρέποντάς τους να συνδεθούν"
+
+#: includes/class-admin.php:924
+msgid "Hide prices from specific WordPress user roles (Customer, Subscriber, etc.)"
+msgstr "Απόκρυψη τιμών από συγκεκριμένους ρόλους χρηστών WordPress (Πελάτης, Συνδρομητής, κλπ.)"
+
+#: includes/class-admin.php:925
+msgid "Show prices to logged-in users while hiding from guests"
+msgstr "Εμφάνιση τιμών σε συνδεδεμένους χρήστες ενώ αποκρύπτονται από τους επισκέπτες"
+
+#: includes/class-admin.php:926
+msgid "Configure custom login URLs or use WooCommerce My Account page"
+msgstr "Ρυθμίστε προσαρμοσμένα URL σύνδεσης ή χρησιμοποιήστε τη σελίδα Ο Λογαριασμός μου του WooCommerce"
+
+#: includes/class-admin.php:929
+msgid "Button Customization & Theme Integration"
+msgstr "Προσαρμογή Κουμπιών & Ενσωμάτωση Θέματος"
+
+#: includes/class-admin.php:931
+msgid "Customize button text for product pages, archive pages, and login prompts"
+msgstr "Προσαρμόστε το κείμενο κουμπιού για σελίδες προϊόντων, σελίδες αρχείου και προτροπές σύνδεσης"
+
+#: includes/class-admin.php:932
+msgid "Choose between <button> or <a> HTML tags for optimal theme compatibility"
+msgstr "Επιλέξτε μεταξύ ετικετών HTML <button> ή <a> για βέλτιστη συμβατότητα θέματος"
+
+#: includes/class-admin.php:933
+msgid "Add custom CSS classes to buttons for advanced styling"
+msgstr "Προσθέστε προσαρμοσμένες κλάσεις CSS στα κουμπιά για προηγμένη μορφοποίηση"
+
+#: includes/class-admin.php:934
+msgid "Select from WordPress Dashicons library for button icons"
+msgstr "Επιλέξτε από τη βιβλιοθήκη Dashicons του WordPress για εικονίδια κουμπιών"
+
+#: includes/class-admin.php:935
+msgid "Control button alignment: left, center, right, or auto"
+msgstr "Ελέγξτε τη στοίχιση κουμπιού: αριστερά, κέντρο, δεξιά ή αυτόματη"
+
+#: includes/class-admin.php:936
+msgid "Separate customization for product pages and archive/category pages"
+msgstr "Ξεχωριστή προσαρμογή για σελίδες προϊόντων και σελίδες αρχείου/κατηγορίας"
+
+#: includes/class-admin.php:937
+msgid "Enable/disable button replacement on product pages or archives independently"
+msgstr "Ενεργοποίηση/απενεργοποίηση αντικατάστασης κουμπιού σε σελίδες προϊόντων ή αρχεία ανεξάρτητα"
+
+#: includes/class-admin.php:940
+msgid "Contact Form & Inquiry Management"
+msgstr "Φόρμα Επικοινωνίας & Διαχείριση Ερωτήσεων"
+
+#: includes/class-admin.php:942
+msgid "Professional AJAX-powered modal contact form"
+msgstr "Επαγγελματική φόρμα επικοινωνίας modal με τεχνολογία AJAX"
+
+#: includes/class-admin.php:943
+msgid "No page refresh required - smooth user experience"
+msgstr "Δεν απαιτείται ανανέωση σελίδας - ομαλή εμπειρία χρήστη"
+
+#: includes/class-admin.php:944
+msgid "Collects customer name, email, phone (optional), and message"
+msgstr "Συλλέγει όνομα πελάτη, email, τηλέφωνο (προαιρετικό) και μήνυμα"
+
+#: includes/class-admin.php:945
+msgid "Automatically includes product name, ID, SKU, and link in inquiry emails"
+msgstr "Περιλαμβάνει αυτόματα όνομα προϊόντος, ID, SKU και σύνδεσμο στα email ερωτήσεων"
+
+#: includes/class-admin.php:946
+msgid "Client-side and server-side form validation"
+msgstr "Επικύρωση φόρμας από την πλευρά του πελάτη και του διακομιστή"
+
+#: includes/class-admin.php:947
+msgid "Send inquiries to WordPress admin email or custom email address"
+msgstr "Αποστολή ερωτήσεων στο email διαχειριστή WordPress ή σε προσαρμοσμένη διεύθυνση email"
+
+#: includes/class-admin.php:948
+msgid "Choose between modal form or direct link to product page on archives"
+msgstr "Επιλέξτε μεταξύ φόρμας modal ή απευθείας συνδέσμου στη σελίδα προϊόντος σε αρχεία"
+
+#: includes/class-admin.php:951
+msgid "Developer & Technical Features"
+msgstr "Χαρακτηριστικά Προγραμματιστή & Τεχνικά"
+
+#: includes/class-admin.php:953
+msgid "Fully translatable with complete i18n support"
+msgstr "Πλήρως μεταφράσιμο με πλήρη υποστήριξη i18n"
+
+#: includes/class-admin.php:954
+msgid "Compatible with WooCommerce 5.0+ and tested up to 9.0"
+msgstr "Συμβατό με WooCommerce 5.0+ και δοκιμασμένο έως 9.0"
+
+#: includes/class-admin.php:955
+msgid "Works with variable products and product variations"
+msgstr "Λειτουργεί με μεταβλητά προϊόντα και παραλλαγές προϊόντων"
+
+#: includes/class-admin.php:956
+msgid "Clean, well-documented code following WordPress coding standards"
+msgstr "Καθαρός, καλά τεκμηριωμένος κώδικας που ακολουθεί τα πρότυπα κωδικοποίησης WordPress"
+
+#: includes/class-admin.php:957
+msgid "Lightweight and optimized for performance"
+msgstr "Ελαφρύ και βελτιστοποιημένο για απόδοση"
+
+#: includes/class-admin.php:958
+msgid "No conflicts with popular themes and page builders"
+msgstr "Χωρίς συγκρούσεις με δημοφιλή θέματα και page builders"
+
+#: includes/class-admin.php:963
+msgid "Perfect For"
+msgstr "Ιδανικό Για"
+
+#: includes/class-admin.php:965
+msgid "B2B and wholesale businesses requiring quote requests"
+msgstr "Επιχειρήσεις B2B και χονδρικής που απαιτούν αιτήματα προσφοράς"
+
+#: includes/class-admin.php:966
+msgid "Custom product manufacturers with variable pricing"
+msgstr "Κατασκευαστές προσαρμοσμένων προϊόντων με μεταβλητή τιμολόγηση"
+
+#: includes/class-admin.php:967
+msgid "Exclusive or luxury product retailers"
+msgstr "Λιανοπωλητές αποκλειστικών ή πολυτελών προϊόντων"
+
+#: includes/class-admin.php:968
+msgid "Stores with member-only or role-based pricing"
+msgstr "Καταστήματα με τιμολόγηση μόνο για μέλη ή βασισμένη σε ρόλους"
+
+#: includes/class-admin.php:969
+msgid "Businesses preferring personal consultation before sales"
+msgstr "Επιχειρήσεις που προτιμούν προσωπική διαβούλευση πριν από τις πωλήσεις"
+
+#: includes/class-admin.php:974
+msgid "Important Notice"
+msgstr "Σημαντική Ειδοποίηση"
+
+#: includes/class-admin.php:976
+msgid "WordPress themes are built differently, and each theme may have its own unique structure and styling. While this plugin is designed to work with most themes, some features (such as button alignment or custom CSS classes) may not work as intended on certain themes due to theme-specific CSS overrides or layout structures."
+msgstr "Τα θέματα WordPress κατασκευάζονται διαφορετικά και κάθε θέμα μπορεί να έχει τη δική του μοναδική δομή και μορφοποίηση. Ενώ αυτό το πρόσθετο έχει σχεδιαστεί για να λειτουργεί με τα περισσότερα θέματα, ορισμένες λειτουργίες (όπως η στοίχιση κουμπιών ή οι προσαρμοσμένες κλάσεις CSS) ενδέχεται να μην λειτουργούν όπως προβλέπεται σε ορισμένα θέματα λόγω αντικαταστάσεων CSS ειδικών για το θέμα ή δομών διάταξης."
+
+#: includes/class-admin.php:979
+msgid "If you experience any compatibility issues, you may need to add custom CSS to your theme or consult with your theme developer. The plugin provides extensive customization options (HTML tags, CSS classes, alignment controls) to help you achieve the desired integration with your specific theme."
+msgstr "Εάν αντιμετωπίσετε προβλήματα συμβατότητας, ενδέχεται να χρειαστεί να προσθέσετε προσαρμοσμένο CSS στο θέμα σας ή να συμβουλευτείτε τον προγραμματιστή του θέματός σας. Το πρόσθετο παρέχει εκτενείς επιλογές προσαρμογής (ετικέτες HTML, κλάσεις CSS, ελέγχους στοίχισης) για να σας βοηθήσει να επιτύχετε την επιθυμητή ενσωμάτωση με το συγκεκριμένο θέμα σας."
+
+#: includes/class-admin.php:586
+msgid "What does this plugin do?"
+msgstr "Τι κάνει αυτό το πρόσθετο;"
+
+#: includes/class-admin.php:588
+msgid "WC Hide Price & Ask Button Pro allows you to hide product prices and replace the WooCommerce \"Add to Cart\" button with a customizable \"Ask for Product\" button. When a customer clicks this button, a contact form modal opens where they can send you an inquiry about the product. This is perfect for products that require custom quotes, exclusive items, or any product where you prefer personal communication over direct purchasing."
+msgstr "Το WC Απόκρυψη Τιμής & Κουμπί Ερώτησης σας επιτρέπει να αποκρύψετε τις τιμές των προϊόντων και να αντικαταστήσετε το κουμπί \"Προσθήκη στο καλάθι\" του WooCommerce με ένα προσαρμόσιμο κουμπί \"Ρωτήστε για το προϊόν\". Όταν ένας πελάτης πατήσει αυτό το κουμπί, ανοίγει ένα παράθυρο φόρμας επικοινωνίας όπου μπορεί να σας στείλει ερώτηση σχετικά με το προϊόν. Αυτό είναι ιδανικό για προϊόντα που απαιτούν εξατομικευμένες προσφορές, αποκλειστικά αντικείμενα ή οποιοδήποτε προϊόν όπου προτιμάτε την προσωπική επικοινωνία αντί της άμεσης αγοράς."
+
+#: includes/class-admin.php:593
+msgid "Hide prices for individual products or entire categories."
+msgstr ""
+
+#: includes/class-admin.php:594
+msgid "Replace the Add to Cart button with a customizable inquiry button."
+msgstr ""
+
+#: includes/class-admin.php:595
+msgid "Built-in contact form modal — no extra plugins needed."
+msgstr ""
+
+#: includes/class-admin.php:596
+msgid "Inherits your theme styling for seamless integration."
+msgstr "Κληρονομεί τη μορφοποίηση του θέματός σας για απρόσκοπτη ενσωμάτωση."
+
+#: includes/class-admin.php:597
+msgid "Full internationalization (i18n) support."
+msgstr "Πλήρης υποστήριξη διεθνοποίησης (i18n)."
+
+#: includes/class-admin.php:602
+msgid "Support the Developer"
+msgstr "Υποστηρίξτε τον Προγραμματιστή"
+
+#: includes/class-admin.php:603
+msgid "If you find this plugin helpful, consider supporting the developer with a small donation. Every contribution helps keep this project going!"
+msgstr "Αν βρίσκετε αυτό το πρόσθετο χρήσιμο, σκεφτείτε να υποστηρίξετε τον προγραμματιστή με μια μικρή δωρεά. Κάθε συνεισφορά βοηθά στη συνέχιση αυτού του έργου!"
+
+#: includes/class-admin.php:608
+msgid "Donate via PayPal"
+msgstr "Δωρεά μέσω PayPal"
+
+#: includes/class-admin.php:612
+msgid "Donate via Revolut"
+msgstr "Δωρεά μέσω Revolut"
+
+#. translators: %s: Plugin version number.
+#: includes/class-admin.php:622
+#, php-format
+msgid "Version %s"
+msgstr "Έκδοση %s"
+
+#: includes/class-admin.php:362 includes/class-frontend.php:150
+#: includes/class-frontend.php:167
+msgid "Ask for product"
+msgstr "Ρωτήστε για το προϊόν"
+
+#: includes/class-frontend.php:310
+msgid "Interest in product"
+msgstr "Ενδιαφέρον για το προϊόν"
+
+#: includes/class-frontend.php:311 includes/class-frontend.php:357
+msgid "Your Name"
+msgstr "Το Όνομά σας"
+
+#: includes/class-frontend.php:312 includes/class-frontend.php:365
+msgid "Your Telephone"
+msgstr "Το Τηλέφωνό σας"
+
+#: includes/class-frontend.php:313 includes/class-frontend.php:372
+msgid "Your Email"
+msgstr "Το Email σας"
+
+#: includes/class-frontend.php:314 includes/class-frontend.php:380
+msgid "Your Message"
+msgstr "Το Μήνυμά σας"
+
+#: includes/class-frontend.php:315 includes/class-frontend.php:388
+msgid "Send Message"
+msgstr "Αποστολή Μηνύματος"
+
+#: includes/class-frontend.php:316
+msgid "Required"
+msgstr "Υποχρεωτικό"
+
+#: includes/class-frontend.php:317
+msgid "Sending…"
+msgstr "Αποστολή…"
+
+#: includes/class-ajax.php:394 includes/class-frontend.php:318
+msgid "Thank you! Your message has been sent successfully."
+msgstr "Ευχαριστούμε! Το μήνυμά σας στάλθηκε επιτυχώς."
+
+#: includes/class-frontend.php:319
+msgid "An error occurred. Please try again."
+msgstr "Παρουσιάστηκε σφάλμα. Παρακαλώ δοκιμάστε ξανά."
+
+#: includes/class-ajax.php:333 includes/class-frontend.php:320
+msgid "Please fill in all required fields."
+msgstr "Παρακαλώ συμπληρώστε όλα τα υποχρεωτικά πεδία."
+
+#: includes/class-admin.php:538 includes/class-ajax.php:339
+#: includes/class-frontend.php:321
+msgid "Please enter a valid email address."
+msgstr "Παρακαλώ εισάγετε μια έγκυρη διεύθυνση email."
+
+#: includes/class-frontend.php:322 includes/class-frontend.php:347
+msgid "Close"
+msgstr "Κλείσιμο"
+
+#: includes/class-ajax.php:68 includes/class-ajax.php:150
+#: includes/class-ajax.php:196 includes/class-ajax.php:231
+#: includes/class-ajax.php:250 includes/class-ajax.php:288
+msgid "Unauthorized."
+msgstr "Μη εξουσιοδοτημένο."
+
+#: includes/class-ajax.php:363
+msgid "Name"
+msgstr "Όνομα"
+
+#: includes/class-ajax.php:364
+msgid "Email"
+msgstr "Email"
+
+#: includes/class-ajax.php:367
+msgid "Phone"
+msgstr "Τηλέφωνο"
+
+#: includes/class-ajax.php:382
+msgid "Product"
+msgstr "Προϊόν"
+
+#: includes/class-ajax.php:383
+msgid "Message"
+msgstr "Μήνυμα"
+
+#: includes/class-ajax.php:398
+msgid "An error occurred while sending your message. Please try again."
+msgstr "Παρουσιάστηκε σφάλμα κατά την αποστολή του μηνύματός σας. Παρακαλώ δοκιμάστε ξανά."
+
+#: includes/class-admin.php:286
+msgid "Exclude Products"
+msgstr "Εξαίρεση Προϊόντων"
+
+#: includes/class-admin.php:287
+msgid "Products listed here will keep their prices visible even if they belong to a hidden category above."
+msgstr "Τα προϊόντα που αναφέρονται εδώ θα διατηρήσουν τις τιμές τους ορατές ακόμα κι αν ανήκουν σε μια κρυφή κατηγορία παραπάνω."
+
+#: includes/class-admin.php:290
+msgid "Search Products to Exclude"
+msgstr "Αναζήτηση Προϊόντων για Εξαίρεση"
+
+#: includes/class-admin.php:308
+msgid "Excluded Products"
+msgstr "Εξαιρούμενα Προϊόντα"
+
+#: includes/class-admin.php:337
+msgid "Save Excluded Products"
+msgstr "Αποθήκευση Εξαιρούμενων Προϊόντων"
+
+#: includes/class-admin.php:142
+msgid "This product is already in the Excluded Products list on the Categories page. Remove it there first."
+msgstr "Αυτό το προϊόν βρίσκεται ήδη στη λίστα Εξαιρούμενων Προϊόντων στη σελίδα Κατηγοριών. Αφαιρέστε το πρώτα από εκεί."
+
+#: includes/class-admin.php:143
+msgid "This product is already in the Hidden Products list. Remove it there first."
+msgstr "Αυτό το προϊόν βρίσκεται ήδη στη λίστα Κρυφών Προϊόντων. Αφαιρέστε το πρώτα από εκεί."
+
+#: includes/class-ajax.php:212
+msgid "Conflict: the following products are in the Excluded Products list. Remove them there first:"
+msgstr "Σύγκρουση: τα ακόλουθα προϊόντα βρίσκονται στη λίστα Εξαιρούμενων Προϊόντων. Αφαιρέστε τα πρώτα από εκεί:"
+
+#: includes/class-ajax.php:304
+msgid "Conflict: the following products are in the Hidden Products list. Remove them there first:"
+msgstr "Σύγκρουση: τα ακόλουθα προϊόντα βρίσκονται στη λίστα Κρυφών Προϊόντων. Αφαιρέστε τα πρώτα από εκεί:"
+
+#. Plugin Name of the plugin
+#: wc-hide-price-ask-button.php
+msgid "WC Hide Price & Ask Button Pro"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: wc-hide-price-ask-button.php
+msgid "https://github.com/senortiago/wc-hide-price-ask-button"
+msgstr ""
+
+#. Description of the plugin
+#: wc-hide-price-ask-button.php
+msgid "Hide WooCommerce product prices and replace the Add to Cart button with a customizable \"Ask for Product\" button that opens a contact modal."
+msgstr ""
+
+#. Author of the plugin
+#: wc-hide-price-ask-button.php
+msgid "Senortiago"
+msgstr ""
+
+#. Author URI of the plugin
+#: wc-hide-price-ask-button.php
+msgid "https://github.com/senortiago"
+msgstr ""
+
+#: includes/class-admin.php:184
+msgid "No products selected yet."
+msgstr "Δεν έχουν επιλεγεί προϊόντα ακόμα."
+
+#: includes/class-admin.php:255
+msgid "No categories selected yet."
+msgstr "Δεν έχουν επιλεγεί κατηγορίες ακόμα."
+
+#: includes/class-admin.php:312
+msgid "No products excluded yet."
+msgstr "Δεν έχουν εξαιρεθεί προϊόντα ακόμα."
+
+#: includes/class-admin.php:465
+msgid "Link to Product Page"
+msgstr "Σύνδεσμος Σελίδας Προϊόντος"
+
+#: includes/class-admin.php:470
+msgid "Open Modal Form"
+msgstr "Άνοιγμα Φόρμας"
+
+#: includes/class-admin.php:518
+msgid "Email Receiver"
+msgstr "Δέκτης του Email"
+
+#: includes/class-admin.php:528
+msgid "Admin Email:"
+msgstr "Email Διαχειριστή:"
+
+#: includes/class-admin.php:534
+msgid "Custom Email:"
+msgstr "Προσαρμοσμένο Email:"
+
+#. translators: %s: Product name.
+#: includes/class-ajax.php:361
+#, php-format
+msgid "Interest for the product: %s"
+msgstr "Ενδιαφέρον για το προϊόν: %s"
+
+#: includes/class-ajax.php:379
+msgid "Link:"
+msgstr "Σύνδεσμος:"
+
+#: includes/class-admin.php:372
+msgid "Product Page Button Settings"
+msgstr "Ρυθμίσεις Κουμπιού Σελίδας Προϊόντος"
+
+#: includes/class-admin.php:378 includes/class-admin.php:439
+msgid "Button Text"
+msgstr "Κείμενο Κουμπιού"
+
+#: includes/class-admin.php:399 includes/class-admin.php:478
+msgid "Button Icon"
+msgstr "Εικονίδιο Κουμπιού"
+
+#: includes/class-admin.php:408 includes/class-admin.php:487
+msgid "No Icon"
+msgstr "Χωρίς Εικονίδιο"
+
+#: includes/class-admin.php:413 includes/class-admin.php:492
+msgid "Custom Icon"
+msgstr "Προσαρμοσμένο Εικονίδιο"
+
+#: includes/class-admin.php:420 includes/class-admin.php:499
+msgid "Search Dashicons..."
+msgstr "Αναζήτηση Dashicons..."
+
+#: includes/class-admin.php:433
+msgid "Category Page Button Settings"
+msgstr "Ρυθμίσεις Κουμπιού Σελίδας Κατηγορίας"
+
+#: includes/class-admin.php:460
+msgid "Button Action"
+msgstr "Ενέργεια Κουμπιού"
+
+#: includes/class-admin.php:512
+msgid "Additional Options"
+msgstr "Επιπλέον Επιλογές"
+
+#: includes/class-admin.php:165
+msgid "Hide Price From All Products"
+msgstr "Απόκρυψη Τιμής από Όλα τα Προϊόντα"
+
+#: includes/class-admin.php:167
+msgid "Enable this to hide prices from all products in your store. When enabled, individual product selections below will be disabled."
+msgstr "Ενεργοποιήστε αυτό για να αποκρύψετε τις τιμές από όλα τα προϊόντα στο κατάστημά σας. Όταν είναι ενεργοποιημένο, οι μεμονωμένες επιλογές προϊόντων παρακάτω θα απενεργοποιηθούν."
+
+#: includes/class-admin.php:168 includes/class-admin.php:268
+msgid "Save Setting"
+msgstr "Αποθήκευση Ρύθμισης"
+
+#: includes/class-admin.php:174
+msgid "Individual Product Selection"
+msgstr "Μεμονωμένη Επιλογή Προϊόντων"
+
+#: includes/class-admin.php:180
+msgid "Individual Product Selection Disabled"
+msgstr "Η Μεμονωμένη Επιλογή Προϊόντων είναι Απενεργοποιημένη"
+
+#: includes/class-admin.php:181
+msgid "\"Hide Price From All Products\" is currently enabled. Individual product selections are disabled."
+msgstr "Η επιλογή \"Απόκρυψη Τιμής από Όλα τα Προϊόντα\" είναι ενεργοποιημένη. Οι μεμονωμένες επιλογές προϊόντων είναι απενεργοποιημένες."
+
+#: includes/class-admin.php:182
+msgid "Disable \"Hide All Products\" to use this feature"
+msgstr "Απενεργοποιήστε την \"Απόκρυψη Όλων των Προϊόντων\" για να χρησιμοποιήσετε αυτή τη λειτουργία"
+
+#: includes/class-admin.php:262
+msgid "Hide Price From All Categories"
+msgstr "Απόκρυψη Τιμής από Όλες τις Κατηγορίες"
+
+#: includes/class-admin.php:264
+msgid "Enable this to hide prices from all product categories. When enabled, individual category selections below will be disabled."
+msgstr "Ενεργοποιήστε αυτό για να αποκρύψετε τις τιμές από όλες τις κατηγορίες προϊόντων. Όταν είναι ενεργοποιημένο, οι μεμονωμένες επιλογές κατηγοριών παρακάτω θα απενεργοποιηθούν."
+
+#: includes/class-admin.php:266
+msgid "This option is disabled because \"Hide Price From All Products\" is enabled."
+msgstr "Αυτή η επιλογή είναι απενεργοποιημένη επειδή η \"Απόκρυψη Τιμής από Όλα τα Προϊόντα\" είναι ενεργοποιημένη."
+
+#: includes/class-admin.php:266
+msgid "Go to Products page to change this"
+msgstr "Μεταβείτε στη σελίδα Προϊόντων για να το αλλάξετε"
+
+#: includes/class-admin.php:275
+msgid "Individual Category Selection"
+msgstr "Μεμονωμένη Επιλογή Κατηγοριών"
+
+#: includes/class-admin.php:281
+msgid "Individual Category Selection Disabled"
+msgstr "Η Μεμονωμένη Επιλογή Κατηγοριών είναι Απενεργοποιημένη"
+
+#: includes/class-admin.php:283
+msgid "\"Hide Price From All Products\" is currently enabled. Category selections are disabled."
+msgstr "Η επιλογή \"Απόκρυψη Τιμής από Όλα τα Προϊόντα\" είναι ενεργοποιημένη. Οι επιλογές κατηγοριών είναι απενεργοποιημένες."
+
+#: includes/class-admin.php:284
+msgid "Go to Products page to disable \"Hide All Products\""
+msgstr "Μεταβείτε στη σελίδα Προϊόντων για να απενεργοποιήσετε την \"Απόκρυψη Όλων των Προϊόντων\""
+
+#: includes/class-admin.php:286
+msgid "\"Hide Price From All Categories\" is currently enabled. Individual category selections are disabled."
+msgstr "Η επιλογή \"Απόκρυψη Τιμής από Όλες τις Κατηγορίες\" είναι ενεργοποιημένη. Οι μεμονωμένες επιλογές κατηγοριών είναι απενεργοποιημένες."
+
+#: includes/class-admin.php:287
+msgid "Disable \"Hide All Categories\" to use this feature"
+msgstr "Απενεργοποιήστε την \"Απόκρυψη Όλων των Κατηγοριών\" για να χρησιμοποιήσετε αυτή τη λειτουργία"
+
+#: includes/class-admin.php:438
+msgid "Visibility Settings"
+msgstr "Ρυθμίσεις Ορατότητας"
+
+#: includes/class-admin.php:439
+msgid "Control who can see prices for hidden products. Configure which products/categories to hide on the Products and Categories pages."
+msgstr "Ελέγξτε ποιος μπορεί να δει τις τιμές για τα κρυφά προϊόντα. Ρυθμίστε ποια προϊόντα/κατηγορίες θα αποκρύπτονται στις σελίδες Προϊόντων και Κατηγοριών."
+
+#: includes/class-admin.php:445
+msgid "Hide Prices From"
+msgstr "Απόκρυψη τιμών"
+
+#: includes/class-admin.php:450
+msgid "Hide from everyone (show contact form)"
+msgstr "Απόκρυψη από όλους (εμφάνιση φόρμας επικοινωνίας)"
+
+#: includes/class-admin.php:454
+msgid "Hide from guests only (show login/register link)"
+msgstr "Απόκρυψη μόνο από επισκέπτες (εμφάνιση συνδέσμου σύνδεσης/εγγραφής)"
+
+#: includes/class-admin.php:458
+msgid "Hide from specific WordPress roles (show contact form)"
+msgstr "Απόκρυψη από συγκεκριμένους ρόλους WordPress (εμφάνιση φόρμας επικοινωνίας)"
+
+#: includes/class-admin.php:462
+msgid "Select roles that should NOT see prices:"
+msgstr "Επιλέξτε ρόλους που ΔΕΝ θα βλέπουν τις τιμές:"
+
+#: includes/class-admin.php:485
+msgid "Login Button Settings"
+msgstr "Ρυθμίσεις Κουμπιού Σύνδεσης"
+
+#: includes/class-admin.php:486
+msgid "Configure the login button shown to guests when prices are hidden."
+msgstr "Ρυθμίστε το κουμπί σύνδεσης που εμφανίζεται στους επισκέπτες όταν οι τιμές είναι κρυφές."
+
+#: includes/class-admin.php:498 includes/class-frontend.php:267
+msgid "Login to view price"
+msgstr "Συνδεθείτε για να δείτε την τιμή"
+
+#: includes/class-admin.php:560
+msgid "Link to theme's default login/register page"
+msgstr "Σύνδεσμος στην προεπιλεγμένη σελίδα σύνδεσης/εγγραφής του θέματος"
+
+#: includes/class-admin.php:565
+msgid "Link to WordPress default login/register page"
+msgstr "Σύνδεσμος στην προεπιλεγμένη σελίδα σύνδεσης/εγγραφής του WordPress"
+
+#: includes/class-admin.php:570
+msgid "Custom login/register URL:"
+msgstr "Προσαρμοσμένο URL σύνδεσης/εγγραφής:"
+
+#: includes/class-admin.php:573
+msgid "Theme default will use WooCommerce My Account page if available, otherwise WordPress login."
+msgstr "Η προεπιλογή θέματος θα χρησιμοποιήσει τη σελίδα Ο Λογαριασμός μου του WooCommerce αν είναι διαθέσιμη, διαφορετικά τη σύνδεση WordPress."
+
+#: includes/class-admin.php:583
+msgid "Note:"
+msgstr "Σημείωση:"
+
+#: includes/class-admin.php:583
+msgid "\"Hide Price From All Products\" is enabled. Individual product selections on the Products page are disabled."
+msgstr "Η επιλογή \"Απόκρυψη Τιμής από Όλα τα Προϊόντα\" είναι ενεργοποιημένη. Οι μεμονωμένες επιλογές προϊόντων στη σελίδα Προϊόντων είναι απενεργοποιημένες."
+
+#: includes/class-admin.php:652
+msgid "\"Hide Price From All Products\" is enabled. Category selections on the Categories page are disabled."
+msgstr "Η επιλογή \"Απόκρυψη Τιμής από Όλα τα Προϊόντα\" είναι ενεργοποιημένη. Οι επιλογές κατηγοριών στη σελίδα Κατηγοριών είναι απενεργοποιημένες."
+
+#: includes/class-admin.php:654
+msgid "\"Hide Price From All Categories\" is enabled. Individual category selections on the Categories page are disabled."
+msgstr "Η επιλογή \"Απόκρυψη Τιμής από Όλες τις Κατηγορίες\" είναι ενεργοποιημένη. Οι μεμονωμένες επιλογές κατηγοριών στη σελίδα Κατηγοριών είναι απενεργοποιημένες."
+
+#: includes/class-ajax.php:365 includes/class-ajax.php:389
+msgid "Setting saved successfully."
+msgstr "Η ρύθμιση αποθηκεύτηκε επιτυχώς."
+
+#: includes/class-admin.php:790
+msgid "Product Page Button Tag"
+msgstr "Ετικέτα Κουμπιού Σελίδας Προϊόντος"
+
+#: includes/class-admin.php:800 includes/class-admin.php:828
+msgid "<button> tag"
+msgstr "Ετικέτα <button>"
+
+#: includes/class-admin.php:804 includes/class-admin.php:832
+msgid "<a> tag"
+msgstr "Ετικέτα <a>"
+
+#: includes/class-admin.php:808 includes/class-admin.php:836
+msgid "Additional CSS Classes:"
+msgstr "Επιπλέον Κλάσεις CSS:"
+
+#: includes/class-admin.php:809 includes/class-admin.php:837
+msgid "e.g., my-custom-class another-class"
+msgstr "π.χ., η-δική-μου-κλάση άλλη-κλάση"
+
+#: includes/class-admin.php:810 includes/class-admin.php:838
+msgid "Add custom CSS classes to the button (space-separated)."
+msgstr "Προσθέστε προσαρμοσμένες κλάσεις CSS στο κουμπί (διαχωρισμένες με κενό)."
+
+#: includes/class-admin.php:818
+msgid "Product List / Archive Button Tag"
+msgstr "Ετικέτα Κουμπιού Λίστας Προϊόντων / Αρχείου"
+
+#: includes/class-admin.php:738
+msgid "Theme Integration"
+msgstr "Ενσωμάτωση Θέματος"
+
+#: includes/class-admin.php:791 includes/class-admin.php:832
+msgid "Button Alignment:"
+msgstr "Στοίχιση Κουμπιού:"
+
+#: includes/class-admin.php:793 includes/class-admin.php:834
+msgid "Auto (use parent element value)"
+msgstr "Αυτόματη (χρήση τιμής γονικού στοιχείου)"
+
+#: includes/class-admin.php:794 includes/class-admin.php:835
+msgid "Left"
+msgstr "Αριστερά"
+
+#: includes/class-admin.php:795 includes/class-admin.php:836
+msgid "Center"
+msgstr "Κέντρο"
+
+#: includes/class-admin.php:796 includes/class-admin.php:837
+msgid "Right"
+msgstr "Δεξιά"
+
+#: includes/class-admin.php:798 includes/class-admin.php:839
+msgid "Control the horizontal alignment of the button wrapper."
+msgstr "Ελέγξτε την οριζόντια στοίχιση του περιτυλίγματος κουμπιού."
